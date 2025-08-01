@@ -1,45 +1,7 @@
 # Quantum vs Classical Transformer Weather Forecasting
 
 ## Project Overview
-This project implements and compares quantum-enhanced and classical transformer architectures for weather forecasting using the Cairo weather dataset. The study investigates whether quantum computing principles can offer advantages in time series prediction tasks by enhancing pattern recognition and feature processing capabilities.
-
-bibAlex-Hackathon-Team 4/
-│
-├── 📄 README                    
-├── 📄 requirements
-│
-├── 📁 data/
-│   ├── 📄 Cairo-Weather (excel file)
-│   ├── 📁 test/
-│   │   ├── QX_test.npy
-│   │   ├── Qy_test.npy
-│   │   ├── X_test.npy
-│   │   └── y_test.npy
-│   └── 📁 train/
-│       ├── meta
-│       ├── Qmeta
-│       ├── Qscaler_features.pkl
-│       ├── Qscaler_target.pkl
-│       ├── scaler_features.pkl
-│       ├── scaler_target.pkl
-│       ├── X_train.npy
-│       ├── y_train.npy
-│       ├── QX_train.npy
-│       └── Qy_train.npy
-│
-├── 📁 data_preprocessing/
-│   ├── Classical Preprocessing.ipynb
-│   └── Quantum Preprocessing.ipynb
-│
-├── 📁 model_training/
-│   ├── Classical Transformer.ipynb
-│   └── Quantum Transformer.ipynb
-│
-├── 📁 model_evaluation/
-│   ├── 📁 Classical results/
-│   │   └── images...             
-│   └── 📁 Quantum results/
-│       └── images...          
+This project implements and compares quantum-enhanced and classical transformer architectures for weather forecasting using the Cairo weather dataset. The study investigates whether quantum computing principles can offer advantages in time series prediction tasks by enhancing pattern recognition and feature processing capabilities.     
 
 
 # 1. Data Preprocessing
