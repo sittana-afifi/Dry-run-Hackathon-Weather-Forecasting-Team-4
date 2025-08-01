@@ -2,7 +2,54 @@
 
 ## Project Overview
 This project implements and compares quantum-enhanced and classical transformer architectures for weather forecasting using the Cairo weather dataset. The study investigates whether quantum computing principles can offer advantages in time series prediction tasks by enhancing pattern recognition and feature processing capabilities.     
+## File Structure
+### Dry-run-Hackathon-Weather-Forecasting-Team-4/
+<br>
 
+<pre><code>
+ ├── README.md               # Project overview and documentation  
+ ├── requirements.txt        # Required Python packages  
+ ├── data/                   # Dataset files (raw or processed)  
+    └── Cairo-Weather.csv
+    └── test    
+        └── QX_test.npy
+        └── QY_test.npy
+        └── X_test.npy
+        └── Y_test.npy
+    └── train 
+        └── QX_train.npy
+        └── Qmeta.json
+        └── X_train.npy
+        └── Y_train.npy
+        └── Qscaler_features.pkl
+        └── Qscaler_target.pkl
+        └── QY_train.npy
+        └── meta.json
+        └── scaler_features.pkl
+        └── scaler_target.pkl
+│
+├── data_preprocessing/                     # Colab or Jupyter notebooks  
+│   └── Classical Preprocessing.ipynb       # Classical LSTM model  
+│   └── Qunatum Transformer.ipynb           # Quantum LSTM model  
+│
+├── model_evaluation/                       # Trained model files or architectures  
+│   └── Classical results 
+        └── forecast_analysis.png
+        └── forecast_temperature.png
+        └── predictions_and_timeseries.png
+        └── residuals_plot.png
+        └── training_history.png
+│   └── Quantum results     
+        └── Quantum comprehensive_forecast_analysis.png
+        └── Quantum residuals_plot.png
+        └── Quantum scatter_timeseries.png
+        └── Quantum training_history.png
+        └── Quantum_forecast_plot.png
+│
+├── model_training/                          # Helper functions for preprocessing, metrics  
+│   └── Classical Transformer.ipynb     
+│   └── Quantum Transformer.ipynb        
+</code></pre>
 
 # 1. Data Preprocessing
 # Responsible Team Member: Ahmed Elshamy / Islam Mohamed
