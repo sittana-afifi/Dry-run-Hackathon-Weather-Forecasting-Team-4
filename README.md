@@ -1,14 +1,53 @@
 # Quantum vs Classical Transformer Weather Forecasting
 
 ## Project Overview
-This project implements and compares quantum-enhanced and classical transformer architectures for weather forecasting using the Cairo weather dataset. The study explores whether quantum computing principles can provide advantages in time series prediction tasks through enhanced pattern recognition and feature processing capabilities.
+This project implements and compares quantum-enhanced and classical transformer architectures for weather forecasting using the Cairo weather dataset. The study investigates whether quantum computing principles can offer advantages in time series prediction tasks by enhancing pattern recognition and feature processing capabilities.
 
 ---
+project-root/
+│
+├── 📄 README.md               # Project overview and documentation  
+├── 📄 requirements.txt        # Required Python packages  
+├── 📁 data/                   # Dataset files (raw or processed)  
+    └── Cairo-Weather.csv
+    └── test
+        └── QX_test.npy
+        └── QY_test.npy
+        └── X_test.npy
+        └── Y_test.npy
+    └── train 
+        └── QX_train.npy
+        └── Qmeta.json
+        └── X_train.npy
+        └── Y_train.npy
+        └── Qscaler_features.pkl
+        └── Qscaler_target.pkl
+        └── QY_train.npy
+        └── meta.json
+        └── scaler_features.pkl
+        └── scaler_target.pkl
+│
+├── 📁 notebooks/              # Colab or Jupyter notebooks  
+│   └── lstm_model.ipynb       # Classical LSTM model  
+│   └── qlstm_model.ipynb      # Quantum LSTM model  
+│
+├── 📁 models/                 # Trained model files or architectures  
+│   └── lstm_model.h5          
+│   └── qlstm_model.pkl        
+│
+├── 📁 utils/                  # Helper functions for preprocessing, metrics  
+│   └── preprocessing.py       
+│   └── evaluation.py          
+│
+└── 📁 outputs/                # Graphs, logs, and results  
+    └── accuracy_plot.png      
+    └── training_log.txt       
+
 
 # 1. Data Preprocessing
 # Responsible Team Member: Ahmed Elshamy / Islam Mohamed
 
-The preprocessing pipeline transforms the Cairo weather dataset into sequences suitable for transformer-based forecasting models. This comprehensive data preparation phase ensures optimal model performance through systematic cleaning, transformation, and structuring of the raw weather data.
+The preprocessing pipeline transforms the Cairo weather dataset into sequences suitable for transformer-based forecasting models. This comprehensive data preparation phase ensures optimal model performance by systematically cleaning, transforming, and structuring the raw weather data.
 
 ## Dataset Information
 - **Source**: Cairo Weather Dataset
