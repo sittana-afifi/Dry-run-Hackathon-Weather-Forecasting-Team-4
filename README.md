@@ -7,9 +7,9 @@ This project implements and compares quantum-enhanced and classical transformer 
 <br>
 
 <pre><code>
- ├── README.md               # Project overview and documentation  
- ├── requirements.txt        # Required Python packages  
- ├── data/                   # Dataset files (raw or processed)  
+├── README.md               # Project overview and documentation  
+├── requirements.txt        # Required Python packages  
+├── data/                   # Dataset files (raw or processed)  
     └── Cairo-Weather.csv
     └── test    
         └── QX_test.npy
