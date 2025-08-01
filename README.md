@@ -3,45 +3,43 @@
 ## Project Overview
 This project implements and compares quantum-enhanced and classical transformer architectures for weather forecasting using the Cairo weather dataset. The study investigates whether quantum computing principles can offer advantages in time series prediction tasks by enhancing pattern recognition and feature processing capabilities.
 
----
-project-root/
+bibAlex-Hackathon-Team 4/
 │
-├── 📄 README.md               # Project overview and documentation  
-├── 📄 requirements.txt        # Required Python packages  
-├── 📁 data/                   # Dataset files (raw or processed)  
-    └── Cairo-Weather.csv
-    └── test
-        └── QX_test.npy
-        └── QY_test.npy
-        └── X_test.npy
-        └── Y_test.npy
-    └── train 
-        └── QX_train.npy
-        └── Qmeta.json
-        └── X_train.npy
-        └── Y_train.npy
-        └── Qscaler_features.pkl
-        └── Qscaler_target.pkl
-        └── QY_train.npy
-        └── meta.json
-        └── scaler_features.pkl
-        └── scaler_target.pkl
+├── 📄 README                    
+├── 📄 requirements
 │
-├── 📁 notebooks/              # Colab or Jupyter notebooks  
-│   └── lstm_model.ipynb       # Classical LSTM model  
-│   └── qlstm_model.ipynb      # Quantum LSTM model  
+├── 📁 data/
+│   ├── 📄 Cairo-Weather (excel file)
+│   ├── 📁 test/
+│   │   ├── QX_test.npy
+│   │   ├── Qy_test.npy
+│   │   ├── X_test.npy
+│   │   └── y_test.npy
+│   └── 📁 train/
+│       ├── meta
+│       ├── Qmeta
+│       ├── Qscaler_features.pkl
+│       ├── Qscaler_target.pkl
+│       ├── scaler_features.pkl
+│       ├── scaler_target.pkl
+│       ├── X_train.npy
+│       ├── y_train.npy
+│       ├── QX_train.npy
+│       └── Qy_train.npy
 │
-├── 📁 models/                 # Trained model files or architectures  
-│   └── lstm_model.h5          
-│   └── qlstm_model.pkl        
+├── 📁 data_preprocessing/
+│   ├── Classical Preprocessing.ipynb
+│   └── Quantum Preprocessing.ipynb
 │
-├── 📁 utils/                  # Helper functions for preprocessing, metrics  
-│   └── preprocessing.py       
-│   └── evaluation.py          
+├── 📁 model_training/
+│   ├── Classical Transformer.ipynb
+│   └── Quantum Transformer.ipynb
 │
-└── 📁 outputs/                # Graphs, logs, and results  
-    └── accuracy_plot.png      
-    └── training_log.txt       
+├── 📁 model_evaluation/
+│   ├── 📁 Classical results/
+│   │   └── images...             
+│   └── 📁 Quantum results/
+│       └── images...          
 
 
 # 1. Data Preprocessing
