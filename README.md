@@ -27,13 +27,13 @@ This project implements and compares quantum-enhanced and classical transformer 
         └── meta.json
         └── scaler_features.pkl
         └── scaler_target.pkl
-│
+
 ├── data_preprocessing/                     # Colab or Jupyter notebooks  
-│   └── Classical Preprocessing.ipynb       # Classical LSTM model  
-│   └── Qunatum Transformer.ipynb           # Quantum LSTM model  
-│
+    └── Classical Preprocessing.ipynb       # Classical LSTM model  
+    └── Qunatum Transformer.ipynb           # Quantum LSTM model  
+ 
 ├── model_evaluation/                       # Trained model files or architectures  
-│   └── Classical results 
+    └── Classical results 
         └── forecast_analysis.png
         └── forecast_temperature.png
         └── predictions_and_timeseries.png
@@ -45,7 +45,7 @@ This project implements and compares quantum-enhanced and classical transformer 
         └── Quantum scatter_timeseries.png
         └── Quantum training_history.png
         └── Quantum_forecast_plot.png
-│
+
 ├── model_training/                          # Helper functions for preprocessing, metrics  
 │   └── Classical Transformer.ipynb     
 │   └── Quantum Transformer.ipynb        
